@@ -122,6 +122,16 @@ h3 {
     font-size: calc(1.3rem + .6vw)
 }
 
+@media (max-width:1100px) {
+    #next{
+        margin: 0px 0px 0px -20px;
+    }
+    #multi-item-example{
+        width:70%;
+        margin-left:5%;
+    }
+}
+
 @media (min-width:1200px) {
 
     .h3,
@@ -6458,7 +6468,7 @@ fieldset:disabled .btn {
 }
 
 .carousel.pointer-event {
-    touch-action: pan-y
+    touch-action: pan-y;
 }
 
 .carousel-inner {
