@@ -4,7 +4,7 @@ function login( d4) {
   var result = d4
   var result1 = d5
   if (result == 17 && result1 == 2005  ) {
-    prompt("Ссылка на админку", "http://127.0.0.1:5500/admin.html");
+    prompt("Ссылка на админку", "https://dma-shop.github.io/admin.html");
   } else {
     alert("Неправильный пароль")
   }
