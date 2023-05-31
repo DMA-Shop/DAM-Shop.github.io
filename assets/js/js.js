@@ -1,19 +1,20 @@
-function login( d4) {
+function login( ) {
   d4 = parseInt(document.getElementById("login1").value);
   d5 = parseInt(document.getElementById("login2").value);
   var result = d4
   var result1 = d5
   if (result == 17 && result1 == 2005  ) {
-    prompt("Ссылка на админку", "https://dma-shop.github.io/admin.html");
+    var url = 'https://dma-shop.github.io/admin.html';
+    window.open(url);
   } else {
     alert("Неправильный пароль")
   }
- 
 }
+
 
 function search() {
   let input = document.getElementById("inputSearch");
-  let filter = input.value.toUpperCase();
+  let filter = input.value.toUpperCase("list");
   let ul = document.getElementById("list");
   let li = ul.getElementsByTagName("li");
 

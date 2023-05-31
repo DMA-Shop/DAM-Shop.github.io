@@ -405,9 +405,9 @@ h1#logo {
 
 
 .box {
-	margin: 2% 10% 10% 20%;
+	margin: -5% 0% 10% 13%;
 	padding-bottom: 8px;
-	width: 1000px;
+	width: 1150px;
 }
 
 
@@ -426,7 +426,9 @@ h1#logo {
 }
 
 #searching .movie p {
-	margin-left: 6px;
+	margin-left: 0px;
+	width: 10%;
+	height:10%;
 }
 
 .movie-image {
@@ -522,6 +524,12 @@ hr {
 	background-position: 10px 50%;
 }
 @media (max-width:1000px) {
+	#img {
+   		height:270%;
+		width: 55%;
+	}
+}
+@media (max-width:1000px) {
 	.search:focus {
 		width: 600px;
 		cursor: text;
@@ -556,10 +564,10 @@ hr {
 	}
 	
 	#searching .movie {
-		height: 480px;
-		width: 200px;
+		height: 70px;
+		width: 100px;
 		float: left;
-		margin:8% 19% 15% 0%;
+		margin:8% 19% 15% 50%;
 	}
 
 	.box {
@@ -572,8 +580,7 @@ hr {
 	p {
 		float: left;
 		display: inline;
-		width: 200px;
-		height: 35px;
+		
 		position: relative;
 		z-index: 2;
 		font-size: 150%;
@@ -589,11 +596,11 @@ hr {
 	}
 
 	.box {
-		margin: 1% 0% 0% 0%;
+		margin: 1% 0% 0% -10%;
 		border-bottom: 0px dashed #000000;
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 		margin-bottom: auto;
-		width: 695px;
+		width: 282px;
 	}
 
 	#navigation {
