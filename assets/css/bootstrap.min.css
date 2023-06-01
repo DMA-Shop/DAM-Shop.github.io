@@ -389,12 +389,7 @@ select {
     display: none
 }
 
-[type=button],
-[type=reset],
-[type=submit],
-button {
-    -webkit-appearance: button
-}
+
 
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -454,7 +449,6 @@ legend+* {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: textfield
 }
 
 ::-webkit-search-decoration {
@@ -2458,7 +2452,6 @@ textarea.form-control-lg {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    vertical-align: middle;
     background-color: #fff;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
@@ -2532,8 +2525,6 @@ textarea.form-control-lg {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
     transition: background-color .15s ease-in-out, background-position .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -5431,6 +5422,23 @@ fieldset:disabled .btn {
     margin-left: -1px;
     border-left-width: 1px
 }
+#us{
+    margin-left: 27%; 
+ }
+ @media (max-width:1000px) {
+    .form {
+        margin: 100px 30px 100px 39px;
+}
+}
+@media (min-width:1000px) {
+    #our{
+        margin-left: 20%;
+    }
+    #us{
+       margin-left: 44%; 
+    }
+}
+
 
 @media (min-width:576px) {
     .list-group-horizontal-sm {
